@@ -29,25 +29,25 @@ EventHub is an enterprise-grade full-stack event discovery and registration plat
 - MongoDB Atlas Cluster or local MongoDB instance
 
 ### 1. Clone & Setup Backend
-\`\`\`bash
+```bash
 cd server
 npm install
 cp .env.example .env
 # Add your MONGO_URI and JWT_SECRET in .env
 npm run dev
-\`\`\`
+```
 *Server runs on `http://localhost:5000`*
 
 ### 2. Seed Database
-\`\`\`bash
+```bash
 cd server
 node seed.js
-\`\`\`
+```
 
 ### 3. Setup Frontend
-\`\`\`bash
+```bash
 cd client
 npm install
 npm run dev
-\`\`\`
+```
 *Client runs on `http://localhost:5173`*
