@@ -18,6 +18,7 @@ app.use(express.json());
 // Routes
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/events", require("./routes/events"));
+app.use('/api/registrations', require('./routes/registrations'));
 
 // MongoDB Connection
 const connectDB = async () => {
